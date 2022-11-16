@@ -1,0 +1,163 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "perfect-copenssl",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PerfectlySoft/Perfect-COpenSSL.git",
+          "name" : "COpenSSL"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "ce3113e159b8c6d8565e5d8db2672b572c81aea9",
+            "version" : "4.0.2"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Perfect-COpenSSL"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "perfect-crypto",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PerfectlySoft/Perfect-Crypto.git",
+          "name" : "PerfectCrypto"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "98373fa3a6c3d551e498c1babe4f25f650fa1310",
+            "version" : "3.3.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Perfect-Crypto"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "perfect-czlib-src",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PerfectlySoft/Perfect-CZlib-src.git",
+          "name" : "PerfectCZlib"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "b63e46909aad937c6434766f8f8c6720d8f3bd05",
+            "version" : "0.0.4"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Perfect-CZlib-src"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "perfect-http",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PerfectlySoft/Perfect-HTTP.git",
+          "name" : "PerfectHTTP"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "122affd0bb5090c61bdc1e50e7f32ab6457d228e",
+            "version" : "3.3.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Perfect-HTTP"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "perfect-httpserver",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PerfectlySoft/Perfect-HTTPServer.git",
+          "name" : "PerfectHTTPServer"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "4843cd54762d59b7e70841663ae561b279b80946",
+            "version" : "3.0.23"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Perfect-HTTPServer"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "perfect-net",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PerfectlySoft/Perfect-Net.git",
+          "name" : "PerfectNet"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "d00b2b9f4cccb4c398e1bcf18f767d6b8add6af7",
+            "version" : "3.3.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Perfect-Net"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "perfect-thread",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PerfectlySoft/Perfect-Thread.git",
+          "name" : "PerfectThread"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "a50b9a33f08fce638f33ae3121613fe499cc23ec",
+            "version" : "3.0.7"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Perfect-Thread"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "perfect-websockets",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PerfectlySoft/Perfect-WebSockets.git",
+          "name" : "PerfectWebSockets"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "9e6ad7068cf91b751f0b5329aea507e54fbda62f",
+            "version" : "3.1.1"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Perfect-WebSockets"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "perfectlib",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/PerfectlySoft/PerfectLib.git",
+          "name" : "PerfectLib"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "5a08c2a596df23a3ae30b6ac9cb509a38384166c",
+            "version" : "3.1.4"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "PerfectLib"
+      }
+    ]
+  },
+  "version" : 5
+}

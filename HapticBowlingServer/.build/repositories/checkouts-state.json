@@ -1,0 +1,43 @@
+{
+  "object" : {
+    "repositories" : {
+      "https://github.com/PerfectlySoft/Perfect-COpenSSL.git" : {
+        "repositoryURL" : "https://github.com/PerfectlySoft/Perfect-COpenSSL.git",
+        "subpath" : "Perfect-COpenSSL-fcde4761"
+      },
+      "https://github.com/PerfectlySoft/Perfect-Crypto.git" : {
+        "repositoryURL" : "https://github.com/PerfectlySoft/Perfect-Crypto.git",
+        "subpath" : "Perfect-Crypto-66016639"
+      },
+      "https://github.com/PerfectlySoft/Perfect-CZlib-src.git" : {
+        "repositoryURL" : "https://github.com/PerfectlySoft/Perfect-CZlib-src.git",
+        "subpath" : "Perfect-CZlib-src-13b32b02"
+      },
+      "https://github.com/PerfectlySoft/Perfect-HTTP.git" : {
+        "repositoryURL" : "https://github.com/PerfectlySoft/Perfect-HTTP.git",
+        "subpath" : "Perfect-HTTP-3192655d"
+      },
+      "https://github.com/PerfectlySoft/Perfect-HTTPServer.git" : {
+        "repositoryURL" : "https://github.com/PerfectlySoft/Perfect-HTTPServer.git",
+        "subpath" : "Perfect-HTTPServer-bf356067"
+      },
+      "https://github.com/PerfectlySoft/Perfect-Net.git" : {
+        "repositoryURL" : "https://github.com/PerfectlySoft/Perfect-Net.git",
+        "subpath" : "Perfect-Net-1ac49a2a"
+      },
+      "https://github.com/PerfectlySoft/Perfect-Thread.git" : {
+        "repositoryURL" : "https://github.com/PerfectlySoft/Perfect-Thread.git",
+        "subpath" : "Perfect-Thread-f51b9554"
+      },
+      "https://github.com/PerfectlySoft/Perfect-WebSockets.git" : {
+        "repositoryURL" : "https://github.com/PerfectlySoft/Perfect-WebSockets.git",
+        "subpath" : "Perfect-WebSockets-b5707872"
+      },
+      "https://github.com/PerfectlySoft/PerfectLib.git" : {
+        "repositoryURL" : "https://github.com/PerfectlySoft/PerfectLib.git",
+        "subpath" : "PerfectLib-7b80d868"
+      }
+    }
+  },
+  "version" : 1
+}
