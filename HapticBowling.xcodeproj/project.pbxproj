@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F338B2F6A0BB6386A253C8B /* Pods_HapticBowling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB200E45AFA7341C3474F0DC /* Pods_HapticBowling.framework */; };
+		3A949FDC2932A57B00C3509A /* BowlingAlley.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3AD6153829329F880055F9D5 /* BowlingAlley.scn */; };
+		3A949FDD2932A58000C3509A /* bowlingpin.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3AD6153929329F880055F9D5 /* bowlingpin.scn */; };
+		3A949FDE2932A58300C3509A /* laneDecor.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3AD6153729329F880055F9D5 /* laneDecor.scn */; };
+		3A949FDF2932A58600C3509A /* borderWall.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3AD6153629329F880055F9D5 /* borderWall.scn */; };
+		3A949FE02932A58900C3509A /* ballDispenser.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3AD6153529329F880055F9D5 /* ballDispenser.scn */; };
+		3A949FE12932A58E00C3509A /* bowlingball.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3AD6153229329F880055F9D5 /* bowlingball.scn */; };
+		3A949FE22932A59200C3509A /* 10pins.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3AD6153129329F880055F9D5 /* 10pins.scn */; };
+		3A949FE32932A59500C3509A /* bowlinglane.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3AD6152F29329F880055F9D5 /* bowlinglane.scn */; };
+		3A949FE92932B3BA00C3509A /* bowlingBallController-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A949FE82932B3BA00C3509A /* bowlingBallController-removebg-preview.png */; };
+		3AD6153C2932A0050055F9D5 /* bowlingBall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3AD6153B2932A0050055F9D5 /* bowlingBall.jpeg */; };
+		DC017D1D292DB3A70085F889 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC017D1C292DB3A70085F889 /* MainViewController.swift */; };
+		DC017D1F292DB5760085F889 /* ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC017D1E292DB5760085F889 /* ControllerViewController.swift */; };
+		DCAC406E292DA143005155EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC406D292DA143005155EF /* AppDelegate.swift */; };
+		DCAC4075292DA143005155EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAC4073292DA143005155EF /* Main.storyboard */; };
+		DCAC4077292DA145005155EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAC4076292DA145005155EF /* Assets.xcassets */; };
+		DCAC407A292DA145005155EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAC4078292DA145005155EF /* LaunchScreen.storyboard */; };
+		DCAC4083292DA184005155EF /* Scoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC4082292DA184005155EF /* Scoring.swift */; };
+		DCAC408E292DA18D005155EF /* bowlinglanes.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAC4085292DA18D005155EF /* bowlinglanes.png */; };
+		DCAC4092292DA18D005155EF /* bowlingarrows.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAC4089292DA18D005155EF /* bowlingarrows.png */; };
+		DCAC4093292DA18D005155EF /* skybox.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCAC408A292DA18D005155EF /* skybox.jpeg */; };
+		DCAC4094292DA18D005155EF /* bowlingPin.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAC408B292DA18D005155EF /* bowlingPin.png */; };
+		DCAC4095292DA18D005155EF /* bowlinglanepins.png in Resources */ = {isa = PBXBuildFile; fileRef = DCAC408C292DA18D005155EF /* bowlinglanepins.png */; };
+		DCD12E20292DA22B0029D404 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD12E1F292DA22B0029D404 /* GameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A949FE82932B3BA00C3509A /* bowlingBallController-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bowlingBallController-removebg-preview.png"; sourceTree = "<group>"; };
+		3AD6152F29329F880055F9D5 /* bowlinglane.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bowlinglane.scn; sourceTree = "<group>"; };
+		3AD6153129329F880055F9D5 /* 10pins.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 10pins.scn; sourceTree = "<group>"; };
+		3AD6153229329F880055F9D5 /* bowlingball.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bowlingball.scn; sourceTree = "<group>"; };
+		3AD6153529329F880055F9D5 /* ballDispenser.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ballDispenser.scn; sourceTree = "<group>"; };
+		3AD6153629329F880055F9D5 /* borderWall.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = borderWall.scn; sourceTree = "<group>"; };
+		3AD6153729329F880055F9D5 /* laneDecor.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = laneDecor.scn; sourceTree = "<group>"; };
+		3AD6153829329F880055F9D5 /* BowlingAlley.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = BowlingAlley.scn; sourceTree = "<group>"; };
+		3AD6153929329F880055F9D5 /* bowlingpin.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = bowlingpin.scn; sourceTree = "<group>"; };
+		3AD6153B2932A0050055F9D5 /* bowlingBall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bowlingBall.jpeg; sourceTree = "<group>"; };
+		742DABBF6E8CD6570222D082 /* Pods-HapticBowling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HapticBowling.debug.xcconfig"; path = "Target Support Files/Pods-HapticBowling/Pods-HapticBowling.debug.xcconfig"; sourceTree = "<group>"; };
+		C17AB6737F0B32292621B998 /* Pods-HapticBowling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HapticBowling.release.xcconfig"; path = "Target Support Files/Pods-HapticBowling/Pods-HapticBowling.release.xcconfig"; sourceTree = "<group>"; };
+		DC017D1C292DB3A70085F889 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DC017D1E292DB5760085F889 /* ControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerViewController.swift; sourceTree = "<group>"; };
+		DCAC406A292DA143005155EF /* HapticBowling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticBowling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAC406D292DA143005155EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCAC4074292DA143005155EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCAC4076292DA145005155EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCAC4079292DA145005155EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCAC4082292DA184005155EF /* Scoring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scoring.swift; sourceTree = "<group>"; };
+		DCAC4085292DA18D005155EF /* bowlinglanes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowlinglanes.png; sourceTree = "<group>"; };
+		DCAC4089292DA18D005155EF /* bowlingarrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowlingarrows.png; sourceTree = "<group>"; };
+		DCAC408A292DA18D005155EF /* skybox.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skybox.jpeg; sourceTree = "<group>"; };
+		DCAC408B292DA18D005155EF /* bowlingPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowlingPin.png; sourceTree = "<group>"; };
+		DCAC408C292DA18D005155EF /* bowlinglanepins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowlinglanepins.png; sourceTree = "<group>"; };
+		DCD12E1F292DA22B0029D404 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FB200E45AFA7341C3474F0DC /* Pods_HapticBowling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HapticBowling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAC4067292DA143005155EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F338B2F6A0BB6386A253C8B /* Pods_HapticBowling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AD6152D29329F880055F9D5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DCAC4061292DA143005155EF = {
+			isa = PBXGroup;
+			children = (
+				DCAC406C292DA143005155EF /* HapticBowling */,
+				DCAC406B292DA143005155EF /* Products */,
+				FCB18D49DE294594E4651BF7 /* Pods */,
+				F0679627E5CAD7C0F54C3907 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAC406B292DA143005155EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAC406A292DA143005155EF /* HapticBowling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAC406C292DA143005155EF /* HapticBowling */ = {
+			isa = PBXGroup;
+			children = (
+				DCAC406D292DA143005155EF /* AppDelegate.swift */,
+				DCD12E1F292DA22B0029D404 /* GameViewController.swift */,
+				DC017D1C292DB3A70085F889 /* MainViewController.swift */,
+				DC017D1E292DB5760085F889 /* ControllerViewController.swift */,
+				DCAC4082292DA184005155EF /* Scoring.swift */,
+				3AD6152D29329F880055F9D5 /* New Group */,
+				DCAC4073292DA143005155EF /* Main.storyboard */,
+				DCAC4076292DA145005155EF /* Assets.xcassets */,
+				DCAC4078292DA145005155EF /* LaunchScreen.storyboard */,
+				3AD6152F29329F880055F9D5 /* bowlinglane.scn */,
+				3AD6153129329F880055F9D5 /* 10pins.scn */,
+				3AD6153229329F880055F9D5 /* bowlingball.scn */,
+				3AD6153529329F880055F9D5 /* ballDispenser.scn */,
+				3AD6153629329F880055F9D5 /* borderWall.scn */,
+				3AD6153729329F880055F9D5 /* laneDecor.scn */,
+				3AD6153929329F880055F9D5 /* bowlingpin.scn */,
+				3AD6153829329F880055F9D5 /* BowlingAlley.scn */,
+				3A949FE82932B3BA00C3509A /* bowlingBallController-removebg-preview.png */,
+				3AD6153B2932A0050055F9D5 /* bowlingBall.jpeg */,
+				DCAC4089292DA18D005155EF /* bowlingarrows.png */,
+				DCAC408C292DA18D005155EF /* bowlinglanepins.png */,
+				DCAC4085292DA18D005155EF /* bowlinglanes.png */,
+				DCAC408B292DA18D005155EF /* bowlingPin.png */,
+				DCAC408A292DA18D005155EF /* skybox.jpeg */,
+			);
+			path = HapticBowling;
+			sourceTree = "<group>";
+		};
+		F0679627E5CAD7C0F54C3907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB200E45AFA7341C3474F0DC /* Pods_HapticBowling.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCB18D49DE294594E4651BF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				742DABBF6E8CD6570222D082 /* Pods-HapticBowling.debug.xcconfig */,
+				C17AB6737F0B32292621B998 /* Pods-HapticBowling.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAC4069292DA143005155EF /* HapticBowling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAC407D292DA145005155EF /* Build configuration list for PBXNativeTarget "HapticBowling" */;
+			buildPhases = (
+				E17D91F05A66B2CE18A5C170 /* [CP] Check Pods Manifest.lock */,
+				DCAC4066292DA143005155EF /* Sources */,
+				DCAC4067292DA143005155EF /* Frameworks */,
+				DCAC4068292DA143005155EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HapticBowling;
+			productName = HapticBowling;
+			productReference = DCAC406A292DA143005155EF /* HapticBowling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAC4062292DA143005155EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DCAC4069292DA143005155EF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DCAC4065292DA143005155EF /* Build configuration list for PBXProject "HapticBowling" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAC4061292DA143005155EF;
+			productRefGroup = DCAC406B292DA143005155EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAC4069292DA143005155EF /* HapticBowling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAC4068292DA143005155EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAC4093292DA18D005155EF /* skybox.jpeg in Resources */,
+				3A949FDC2932A57B00C3509A /* BowlingAlley.scn in Resources */,
+				DCAC4094292DA18D005155EF /* bowlingPin.png in Resources */,
+				DCAC4095292DA18D005155EF /* bowlinglanepins.png in Resources */,
+				DCAC408E292DA18D005155EF /* bowlinglanes.png in Resources */,
+				3A949FDF2932A58600C3509A /* borderWall.scn in Resources */,
+				3AD6153C2932A0050055F9D5 /* bowlingBall.jpeg in Resources */,
+				3A949FE22932A59200C3509A /* 10pins.scn in Resources */,
+				3A949FE02932A58900C3509A /* ballDispenser.scn in Resources */,
+				DCAC407A292DA145005155EF /* LaunchScreen.storyboard in Resources */,
+				DCAC4092292DA18D005155EF /* bowlingarrows.png in Resources */,
+				3A949FDE2932A58300C3509A /* laneDecor.scn in Resources */,
+				DCAC4077292DA145005155EF /* Assets.xcassets in Resources */,
+				3A949FE92932B3BA00C3509A /* bowlingBallController-removebg-preview.png in Resources */,
+				3A949FDD2932A58000C3509A /* bowlingpin.scn in Resources */,
+				DCAC4075292DA143005155EF /* Main.storyboard in Resources */,
+				3A949FE12932A58E00C3509A /* bowlingball.scn in Resources */,
+				3A949FE32932A59500C3509A /* bowlinglane.scn in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E17D91F05A66B2CE18A5C170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HapticBowling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAC4066292DA143005155EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAC406E292DA143005155EF /* AppDelegate.swift in Sources */,
+				DCD12E20292DA22B0029D404 /* GameViewController.swift in Sources */,
+				DC017D1F292DB5760085F889 /* ControllerViewController.swift in Sources */,
+				DCAC4083292DA184005155EF /* Scoring.swift in Sources */,
+				DC017D1D292DB3A70085F889 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCAC4073292DA143005155EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAC4074292DA143005155EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCAC4078292DA145005155EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAC4079292DA145005155EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAC407B292DA145005155EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCAC407C292DA145005155EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCAC407E292DA145005155EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742DABBF6E8CD6570222D082 /* Pods-HapticBowling.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZ5LKJ79QT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asdf.HapticBowling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCAC407F292DA145005155EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17AB6737F0B32292621B998 /* Pods-HapticBowling.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SZ5LKJ79QT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asdf.HapticBowling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAC4065292DA143005155EF /* Build configuration list for PBXProject "HapticBowling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAC407B292DA145005155EF /* Debug */,
+				DCAC407C292DA145005155EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAC407D292DA145005155EF /* Build configuration list for PBXNativeTarget "HapticBowling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAC407E292DA145005155EF /* Debug */,
+				DCAC407F292DA145005155EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCAC4062292DA143005155EF /* Project object */;
+}

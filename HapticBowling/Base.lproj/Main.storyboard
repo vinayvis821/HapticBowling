@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nd4-NL-6UC">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="zQ9-le-wwD">
+            <objects>
+                <viewController id="lif-Da-WsC" customClass="MainViewController" customModule="HapticBowling" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yWK-gK-wTy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haptic Bowling!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yX-lM-kJr">
+                                <rect key="frame" x="40" y="188" width="334" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="tCF-4h-e6l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7K-kI-g7h">
+                                <rect key="frame" x="100" y="281" width="214" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="mfX-YU-lt5"/>
+                                </constraints>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Create Game" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="createGame:" destination="lif-Da-WsC" eventType="touchUpInside" id="74c-sX-EhF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1O-aK-Tyo">
+                                <rect key="frame" x="100" y="392" width="214" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="haG-sz-PiL"/>
+                                </constraints>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Create Controller" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="createController:" destination="lif-Da-WsC" eventType="touchUpInside" id="BLx-l1-p7v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eWf-4x-vjQ"/>
+                        <color key="backgroundColor" red="0.37098426579999999" green="0.3768526384" blue="0.35801362910000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eWf-4x-vjQ" firstAttribute="trailing" secondItem="O7K-kI-g7h" secondAttribute="trailing" constant="100" id="JZP-8H-niU"/>
+                            <constraint firstItem="O7K-kI-g7h" firstAttribute="leading" secondItem="eWf-4x-vjQ" secondAttribute="leading" constant="100" id="cHY-dU-sjS"/>
+                            <constraint firstItem="7yX-lM-kJr" firstAttribute="leading" secondItem="eWf-4x-vjQ" secondAttribute="leading" constant="40" id="dCi-KC-U4V"/>
+                            <constraint firstItem="eWf-4x-vjQ" firstAttribute="trailing" secondItem="7yX-lM-kJr" secondAttribute="trailing" constant="40" id="gNX-Bl-ciR"/>
+                            <constraint firstItem="g1O-aK-Tyo" firstAttribute="top" secondItem="O7K-kI-g7h" secondAttribute="bottom" constant="51" id="hRy-sj-Y4n"/>
+                            <constraint firstItem="eWf-4x-vjQ" firstAttribute="trailing" secondItem="g1O-aK-Tyo" secondAttribute="trailing" constant="100" id="mVH-FJ-K3g"/>
+                            <constraint firstItem="O7K-kI-g7h" firstAttribute="top" secondItem="7yX-lM-kJr" secondAttribute="bottom" constant="57" id="uxa-9P-XLY"/>
+                            <constraint firstItem="g1O-aK-Tyo" firstAttribute="leading" secondItem="eWf-4x-vjQ" secondAttribute="leading" constant="100" id="vG3-uQ-YrW"/>
+                            <constraint firstItem="7yX-lM-kJr" firstAttribute="top" secondItem="eWf-4x-vjQ" secondAttribute="top" constant="100" id="ywT-rt-UIC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6kB-kV-TqV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mXy-dD-Ytd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-313" y="523"/>
+        </scene>
+        <!--Controller View Controller-->
+        <scene sceneID="yjB-q6-wDZ">
+            <objects>
+                <viewController restorationIdentifier="ControllerViewController" storyboardIdentifier="ControllerViewController" id="EXk-CA-0qT" customClass="ControllerViewController" customModule="HapticBowling" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2pg-Mi-WgV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAv-6z-R9i">
+                                <rect key="frame" x="80" y="184" width="254" height="159"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="bowlingBallController-removebg-preview.png"/>
+                                <connections>
+                                    <action selector="bowlButtonBegan:" destination="EXk-CA-0qT" eventType="touchDown" id="PMi-wS-Y92"/>
+                                    <action selector="bowlButtonFinished:" destination="EXk-CA-0qT" eventType="touchUpInside" id="b8m-MN-odi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adjust Lateral Allignment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1TU-Na-GAC">
+                                <rect key="frame" x="50" y="518" width="314" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adjust Angle (0 degrees)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3a-NX-jx9">
+                                <rect key="frame" x="50" y="634.5" width="314" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="XKv-jA-35k"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="49" translatesAutoresizingMaskIntoConstraints="NO" id="Zha-zI-Bt2" userLabel="LateralButtons">
+                                <rect key="frame" x="90" y="554.5" width="234" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oa-GC-YqT">
+                                        <rect key="frame" x="0.0" y="0.0" width="92.5" height="40"/>
+                                        <color key="tintColor" systemColor="systemGray3Color"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Left">
+                                                    <attributes>
+                                                        <font key="NSFont" size="10" name="Menlo-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseBackgroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="lateralAdjustLeft:" destination="EXk-CA-0qT" eventType="touchUpInside" id="wQG-jt-2bP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUa-3h-wBy">
+                                        <rect key="frame" x="141.5" y="0.0" width="92.5" height="40"/>
+                                        <color key="tintColor" systemColor="systemGray3Color"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Right">
+                                                    <attributes>
+                                                        <font key="NSFont" size="10" name="Menlo-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseBackgroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="lateralAdjustRight:" destination="EXk-CA-0qT" eventType="touchUpInside" id="f7f-rh-NGy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Qms-7A-dhI"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="nFs-iB-kBC" userLabel="AngleButtons">
+                                <rect key="frame" x="90" y="678.5" width="234" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="407-OM-ZX5">
+                                        <rect key="frame" x="0.0" y="0.0" width="102.5" height="40"/>
+                                        <color key="tintColor" systemColor="systemGray3Color"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Rotate Left">
+                                                    <attributes>
+                                                        <font key="NSFont" size="10" name="Menlo-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseBackgroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="angleAdjustLeft:" destination="EXk-CA-0qT" eventType="touchUpInside" id="4rq-q0-Sgk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWC-eA-nnF">
+                                        <rect key="frame" x="131.5" y="0.0" width="102.5" height="40"/>
+                                        <color key="tintColor" systemColor="systemGray3Color"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Rotate Right">
+                                                    <attributes>
+                                                        <font key="NSFont" size="10" name="Menlo-Regular"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseBackgroundColor" systemColor="systemGray3Color"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="angleAdjustRight:" destination="EXk-CA-0qT" eventType="touchUpInside" id="4Yv-8W-hYV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="KdG-sT-FIG"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hold while winding, release to roll" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5w-eM-Gil">
+                                <rect key="frame" x="40" y="403" width="334" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="9FV-n8-28d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uii-Bp-hc7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uii-Bp-hc7" firstAttribute="trailing" secondItem="1TU-Na-GAC" secondAttribute="trailing" constant="50" id="5Ch-Lw-toc"/>
+                            <constraint firstItem="1TU-Na-GAC" firstAttribute="leading" secondItem="uii-Bp-hc7" secondAttribute="leading" constant="50" id="AdB-kg-sbl"/>
+                            <constraint firstItem="uii-Bp-hc7" firstAttribute="trailing" secondItem="C3a-NX-jx9" secondAttribute="trailing" constant="50" id="BLx-V2-X9c"/>
+                            <constraint firstItem="Zha-zI-Bt2" firstAttribute="leading" secondItem="uii-Bp-hc7" secondAttribute="leading" constant="90" id="GuH-OC-8zv"/>
+                            <constraint firstItem="nFs-iB-kBC" firstAttribute="top" secondItem="C3a-NX-jx9" secondAttribute="bottom" constant="20" id="H9v-Pj-NsX"/>
+                            <constraint firstItem="nFs-iB-kBC" firstAttribute="leading" secondItem="uii-Bp-hc7" secondAttribute="leading" constant="90" id="MIJ-Az-0bM"/>
+                            <constraint firstItem="1TU-Na-GAC" firstAttribute="top" secondItem="A5w-eM-Gil" secondAttribute="bottom" constant="100" id="OoD-oh-UdC"/>
+                            <constraint firstItem="A5w-eM-Gil" firstAttribute="top" secondItem="aAv-6z-R9i" secondAttribute="bottom" constant="60" id="QOA-Dd-5Bk"/>
+                            <constraint firstItem="uii-Bp-hc7" firstAttribute="trailing" secondItem="Zha-zI-Bt2" secondAttribute="trailing" constant="90" id="RUC-K2-pGt"/>
+                            <constraint firstItem="uii-Bp-hc7" firstAttribute="trailing" secondItem="aAv-6z-R9i" secondAttribute="trailing" constant="80" id="UNM-76-YAl"/>
+                            <constraint firstItem="C3a-NX-jx9" firstAttribute="leading" secondItem="uii-Bp-hc7" secondAttribute="leading" constant="50" id="W5D-sv-2rC"/>
+                            <constraint firstItem="A5w-eM-Gil" firstAttribute="leading" secondItem="uii-Bp-hc7" secondAttribute="leading" constant="40" id="WuB-Sr-3mD"/>
+                            <constraint firstItem="C3a-NX-jx9" firstAttribute="top" secondItem="Zha-zI-Bt2" secondAttribute="bottom" constant="40" id="a4k-g1-dvN"/>
+                            <constraint firstItem="aAv-6z-R9i" firstAttribute="top" secondItem="uii-Bp-hc7" secondAttribute="top" constant="140" id="e8Y-g1-eR7"/>
+                            <constraint firstItem="uii-Bp-hc7" firstAttribute="trailing" secondItem="A5w-eM-Gil" secondAttribute="trailing" constant="40" id="ngE-Qi-b1b"/>
+                            <constraint firstItem="aAv-6z-R9i" firstAttribute="leading" secondItem="uii-Bp-hc7" secondAttribute="leading" constant="80" id="pnZ-C9-d1L"/>
+                            <constraint firstItem="uii-Bp-hc7" firstAttribute="trailing" secondItem="nFs-iB-kBC" secondAttribute="trailing" constant="90" id="r4m-vR-aTg"/>
+                            <constraint firstItem="Zha-zI-Bt2" firstAttribute="top" secondItem="1TU-Na-GAC" secondAttribute="bottom" constant="20" id="ztT-zf-Cju"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="angleLabel" destination="C3a-NX-jx9" id="cpH-Te-03G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TC9-lq-orr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042.0289855072465" y="779.46428571428567"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController restorationIdentifier="GameViewController" storyboardIdentifier="GameViewController" id="BV1-FR-VrT" customClass="GameViewController" customModule="HapticBowling" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SP3-TA-hxN" customClass="SCNView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hKJ-RO-l7z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010" y="35"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mm6-i2-8ns">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nd4-NL-6UC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kwA-Qv-IIL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lif-Da-WsC" kind="relationship" relationship="rootViewController" id="Jrf-a0-APW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eNm-sB-K4j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-132" y="-241"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bowlingBallController-removebg-preview.png" width="120" height="108.75"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
